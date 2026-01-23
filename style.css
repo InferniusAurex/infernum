@@ -18,6 +18,8 @@
 
 body {
   background-color: #212121;
+  margin: 1em;
+	max-width: 900px;
 }
 
 .utopia {
@@ -68,3 +70,28 @@ body {
 .utopiatest:hover {
   box-shadow: var(--hover-shadows);
 }
+
+
+@media (max-width: 600px) {
+
+	body {
+		margin: 0.8em;
+	}
+
+	.page-title {
+		font-size: 1.6rem;
+	}
+
+	.page-title-icon {
+		width: 24px;
+		height: 24px;
+		top: 1px;
+	}
+
+	table {
+		width: 100%;
+		display: block;
+		overflow-x: auto;
+	}
+}
+
