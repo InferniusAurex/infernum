@@ -2,19 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport"
-	      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 	<title>U T O P I A</title>
 
-	<!-- Favicon -->
 	<link rel="icon" type="image/png" sizes="32x32" href="Homeicon.png">
 
-	<!-- External CSS (if used) -->
-	<link rel="stylesheet" href="style.css">
-
 	<style>
-	/* ===== Global reset & base ===== */
 	html {
 		-webkit-print-color-adjust: exact;
 	}
@@ -39,9 +33,10 @@
 	body {
 		line-height: 1.5;
 		white-space: normal;
+		margin: 2em auto;
+		max-width: 900px;
 	}
 
-	/* ===== Links ===== */
 	a,
 	a:visited,
 	a:hover,
@@ -52,18 +47,11 @@
 		outline: none;
 	}
 
-	/* ===== Typography ===== */
 	h1, h2, h3 {
 		letter-spacing: -0.01em;
 		line-height: 1.2;
 		font-weight: 600;
 		margin-bottom: 0;
-	}
-
-	h1 strong,
-	h2 strong,
-	h3 strong {
-		font-weight: 600;
 	}
 
 	.page-title {
@@ -72,28 +60,11 @@
 		margin: 0 0 0.75em;
 	}
 
-	h1 { font-size: 1.875rem; margin-top: 1.875rem; }
-	h2 { font-size: 1.5rem;   margin-top: 1.5rem; }
-	h3 { font-size: 1.25rem;  margin-top: 1.25rem; }
-
 	.page-description {
 		margin-bottom: 2em;
 		color: #a39f98;
 	}
 
-	/* ===== Layout ===== */
-	@media only screen {
-		body {
-			margin: 2em auto;
-			max-width: 900px;
-		}
-	}
-
-	.page-body {
-		width: 100%;
-	}
-
-	/* ===== Page title with icon ===== */
 	.page-title-wrap {
 		display: flex;
 		align-items: baseline;
@@ -101,14 +72,13 @@
 	}
 
 	.page-title-icon {
-		width: 34px;
-		height: 34px;
+		width: 28px;
+		height: 28px;
 		object-fit: contain;
 		position: relative;
 		top: 2px;
 	}
 
-	/* ===== Tables & collections ===== */
 	table {
 		width: 100%;
 		border-collapse: collapse;
@@ -124,16 +94,11 @@
 	}
 
 	th {
-		color: #ebebe9;
+		color: #a39f98;
 	}
 
 	.collection-content {
 		font-size: 0.875rem;
-		min-width: 100%;
-	}
-
-	.collection-content th {
-		color: #a39f98;
 	}
 
 	.collection-content td.cell-title {
@@ -160,7 +125,6 @@
 		max-width: 100%;
 	}
 
-	/* ===== Mobile adjustments ===== */
 	@media (max-width: 600px) {
 		body {
 			margin: 1em;
@@ -189,59 +153,52 @@
 <article class="page sans">
 
 	<header>
-
 		<div class="page-title-wrap">
 			<img src="Homeicon.png" class="page-title-icon" alt="Home">
-			<h1 class="page-title" dir="auto">U T O P I A</h1>
+			<h1 class="page-title">U T O P I A</h1>
 		</div>
 
-		<p class="page-description" dir="auto">
-			“Stay productive. Everything in one place.”
-		</p>
-
+		<p class="page-description">“Stay productive. Everything in one place.”</p>
 	</header>
 
 	<div class="page-body">
 
-		<table class="collection-content">
-			<thead>
-				<tr>
-					<th>
-						<span class="icon property-icon">
-							<img src="https://www.notion.so/icons/arrow-southeast_gray.svg"
-							     style="width:14px;height:14px;display:block"/>
-						</span>
-						COURSE
-					</th>
-				</tr>
-			</thead>
+	<table class="collection-content">
+		<thead>
+			<tr>
+				<th>
+					<span class="icon">
+						<img src="https://www.notion.so/icons/arrow-southeast_gray.svg" style="width:14px;height:14px;display:block">
+					</span>
+					COURSE
+				</th>
+			</tr>
+		</thead>
 
-			<tbody>
-				<tr>
-					<td class="cell-title">
-						<a href="U%20T%20O%20P%20I%20A/Tracking%202df132092bdf801896edfba33a1f25c1.html">
-							<img class="icon notion-static-icon"
-							     src="https://www.notion.so/icons/stopwatch_red.svg"/>
-							Tracking
-						</a>
-					</td>
-				</tr>
-
-				<!-- ALL OTHER ROWS STAY EXACTLY THE SAME -->
-				<!-- paste the rest of your <tr> blocks here unchanged -->
-
-			</tbody>
-		</table>
-
-		<br><br>
+		<tbody>
+			<tr><td class="cell-title"><a href="U%20T%20O%20P%20I%20A/Tracking%202df132092bdf801896edfba33a1f25c1.html"><img class="icon" src="https://www.notion.so/icons/stopwatch_red.svg">Tracking</a></td></tr>
+			<tr><td class="cell-title"><a href="U%20T%20O%20P%20I%20A/Thermodynamics%202e2132092bdf80bc96a2e0ecad1640a3.html"><img class="icon" src="https://www.notion.so/icons/fire_green.svg">Thermodynamics</a></td></tr>
+			<tr><td class="cell-title"><a href="U%20T%20O%20P%20I%20A/DEVC%202df132092bdf80dd82a2f5b3e47da46a.html"><img class="icon" src="https://www.notion.so/icons/mathematics_green.svg">DEVC</a></td></tr>
+			<tr><td class="cell-title"><a href="U%20T%20O%20P%20I%20A/Chemistry%202df132092bdf80f9af9af689e774cbf4.html"><img class="icon" src="https://www.notion.so/icons/science_green.svg">Chemistry</a></td></tr>
+			<tr><td class="cell-title"><a href="U%20T%20O%20P%20I%20A/BEEE%202e2132092bdf80feac6fc0f7af4c1db5.html"><img class="icon" src="https://www.notion.so/icons/electric-plug_green.svg">BEEE</a></td></tr>
+			<tr><td class="cell-title"><a href="U%20T%20O%20P%20I%20A/C%20LAB%202e2132092bdf80318b65f18ede202f37.html"><img class="icon" src="https://www.notion.so/icons/code_green.svg">C LAB</a></td></tr>
+			<tr><td class="cell-title"><a href="U%20T%20O%20P%20I%20A/Economics%202e2132092bdf80789886c5c1c085bef7.html"><img class="icon" src="https://www.notion.so/icons/cash_green.svg">Economics</a></td></tr>
+			<tr><td class="cell-title"><a href="U%20T%20O%20P%20I%20A/IOT%202e2132092bdf80648819fd169675f7ff.html"><img class="icon" src="https://www.notion.so/icons/globe_green.svg">IOT</a></td></tr>
+			<tr><td class="cell-title"><a href="U%20T%20O%20P%20I%20A/Design%20thinking%202e2132092bdf808599ebf5540cf323dc.html"><img class="icon" src="https://www.notion.so/icons/robot_green.svg">Design thinking</a></td></tr>
+			<tr><td class="cell-title"><a href="U%20T%20O%20P%20I%20A/Employability%20skills%202e2132092bdf80a1a452c244564d434a.html"><img class="icon" src="https://www.notion.so/icons/archery_green.svg">Employability skills</a></td></tr>
+			<tr><td class="cell-title"><a href="U%20T%20O%20P%20I%20A/Environmental%20science%202e2132092bdf80c79fd8f5f042d8e468.html"><img class="icon" src="https://www.notion.so/icons/volcano_green.svg">Environmental science</a></td></tr>
+			<tr><td class="cell-title"><a href="U%20T%20O%20P%20I%20A/ACSE%202e2132092bdf8097a7a6e9f80d98b307.html"><img class="icon" src="https://www.notion.so/icons/megaphone_green.svg">ACSE</a></td></tr>
+			<tr><td class="cell-title"><a href="U%20T%20O%20P%20I%20A/Labs%202e3132092bdf80618e7ec00cffd081d7.html"><img class="icon" src="https://www.notion.so/icons/server_yellow.svg">Labs</a></td></tr>
+			<tr><td class="cell-title"><a href="U%20T%20O%20P%20I%20A/Infernius%20Aurex%202d4132092bdf80a3ab15f70f04b7db17.html">Infernius Aurex</a></td></tr>
+			<tr><td class="cell-title"><a href="U%20T%20O%20P%20I%20A/Archive%202dd132092bdf80c0b713df0e98a59025.html"><img class="icon" src="https://www.notion.so/icons/archive_purple.svg">Archive</a></td></tr>
+			<tr><td class="cell-title"><a href="U%20T%20O%20P%20I%20A/University%20Docs%202df132092bdf80c0929cc850e237f42d.html"><img class="icon" src="https://www.notion.so/icons/calendar-month_blue.svg">University Docs</a></td></tr>
+			<tr><td class="cell-title"><a href="U%20T%20O%20P%20I%20A/Other%202e2132092bdf801689ecf8ee3ba6062b.html"><img class="icon" src="https://www.notion.so/icons/add_lightgray.svg">Other</a></td></tr>
+		</tbody>
+	</table>
 
 	</div>
 
 </article>
 
-<span class="sans" style="font-size:14px;padding-top:2em"></span>
-
 </body>
-</html>
-
 </html>
