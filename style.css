@@ -2,8 +2,9 @@
 
 body {
   background-color: #212121;
-  margin: 1em;
+  margin: 1em auto;
   max-width: 900px;
+  font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
 }
 
@@ -33,52 +34,44 @@ body {
   color: grey;
 }
 
+/* ===== BUTTON SHARED ===== */
+
+.utopia,
+.utopiatest {
+  --hover-shadows: 16px 16px 33px #121212, -16px -16px 33px #303030;
+  letter-spacing: 0.1em;
+  border-radius: 1.1em;
+  background-color: #212121;
+  cursor: pointer;
+  padding: 1em 2em;
+  box-shadow: 13px 13px 10px #1c1c1c, -13px -13px 10px #262626;
+  transition: box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.utopia:hover,
+.utopiatest:hover {
+  box-shadow: var(--hover-shadows);
+}
+
 /* ===== BUTTON : UTOPIA ===== */
 
 .utopia {
-  --hover-shadows: 16px 16px 33px #121212, -16px -16px 33px #303030;
-  letter-spacing: 0.1em;
-  border: none;
   position: fixed;
   top: 220px;
   left: 50%;
   transform: translateX(-50%);
-  border-radius: 1.1em;
-  background-color: #212121;
-  cursor: pointer;
-  font-family: 'Poppins', sans-serif;
   color: white;
-  padding: 1em 2em;
-  box-shadow: 13px 13px 10px #1c1c1c, -13px -13px 10px #262626;
-  transition: box-shadow 0.3s ease;
-}
-
-.utopia:hover {
-  box-shadow: var(--hover-shadows);
 }
 
 /* ===== BUTTON : TEST ===== */
 
 .utopiatest {
-  --hover-shadows: 16px 16px 33px #121212, -16px -16px 33px #303030;
-  letter-spacing: 0.1em;
-  border: none;
   position: fixed;
   top: 380px;
   left: 50%;
   transform: translateX(-50%);
-  border-radius: 1.1em;
-  background-color: #212121;
-  cursor: pointer;
-  font-family: 'Poppins', sans-serif;
   color: paleturquoise;
-  padding: 1em 2em;
-  box-shadow: 13px 13px 10px #1c1c1c, -13px -13px 10px #262626;
-  transition: box-shadow 0.3s ease;
-}
-
-.utopiatest:hover {
-  box-shadow: var(--hover-shadows);
 }
 
 /* ===== MOBILE FIX ===== */
@@ -90,12 +83,10 @@ body {
     top: 0;
     left: 0;
     transform: none;
-
     font-size: 1.8rem;
     letter-spacing: 0.15em;
     line-height: 1.2;
     text-align: center;
-    width: 100%;
     margin-top: 1em;
   }
 
