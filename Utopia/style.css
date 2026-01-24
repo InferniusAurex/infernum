@@ -16,3 +16,11 @@
 	position: relative;
 	top: 2px;
 }
+.copyrights {
+    position: fixed;
+    bottom:30px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: grey; }
