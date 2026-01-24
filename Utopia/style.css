@@ -1,0 +1,18 @@
+.page-title-wrap {
+	display: flex;
+	align-items: baseline;
+	gap: 0.75rem;
+}
+
+.page-title {
+	margin: 0;
+	line-height: 1;
+}
+
+.page-title-icon {
+	width: 28px;
+	height: 28px;
+	object-fit: contain;
+	position: relative;
+	top: 2px;
+}
