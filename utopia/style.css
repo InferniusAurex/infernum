@@ -51,7 +51,7 @@
 
   .copyrights {
     position: relative;
-    bottom: auto;
+    bottom: 30px;
     left: auto;
 	color: grey;
     transform: none;
@@ -76,3 +76,4 @@ a:hover {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+
